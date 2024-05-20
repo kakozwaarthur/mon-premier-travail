@@ -1,0 +1,283 @@
+ /*Reinitialisation*/
+
+
+ :root{
+    margin: 0;
+    padding: 0;
+    font-family: 'ubunttu', sans-serif;
+
+ }
+ a{
+    text-decoration: none;
+ }
+ .listeMenu ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    transition: left 0.3s;
+    padding-left: 80%;
+    
+ }
+
+ ul li a{
+    border: 2px solid transparent;
+    text-decoration: none;
+    color:var(--text-dark);
+    transition: .3s;
+ }
+ 
+ ul li a:hover {
+    border-top-color:#eea304 ;
+    border-bottom-color: #eea304;
+    color: #eea304;
+ }
+
+ /*----------*/
+
+ /* stylisation du menu de navigation*/
+ .MenuContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px;
+    align-items: center;
+ }
+.MenuContainer .listeMenu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.MenuContainer .listeMenu ul li:nth-child(2){
+    border-left: 1px solid  ;
+    border-right: 1px solid ;
+    padding: 0 30px;
+}
+/*-----------*/
+
+/* stylisation du contenu pricipal*/
+
+.maincontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 80px;
+    margin-bottom: 300px;
+}
+
+.imageContainer{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    object-fit: fill;
+    float: left;
+    margin: 0 20px 5px 0;
+}
+.imageContainer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    float: left;
+    margin: 0 20px 5px 0; 
+    
+}
+.aproposContainer{
+    width: 50%;
+    margin-left: 30%;
+}
+.cta{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.cta p{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    line-height: 70%;
+    text-align: center;
+    background-color: #eea304;
+}
+.cta :nth-child(2){
+    background-color: #e03a25;
+}
+.cta :nth-child(3){
+    background-color: #80d8da;
+}
+/*----------------*/
+/*stylisation du pied de page*/
+footer{
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 1px solid #000;
+    margin: 0 80px #000;
+}
+
+@media(max-width: 511px) {
+    .MenuContainer{
+        flex-direction: column;
+        height: auto;
+    }
+    .listeMenu{
+        height: 50px;
+    }
+    
+}
+
+.art1{
+    border-bottom: 1px solid #000;   
+}
+
+.p1{
+    padding-left: 87%;
+}
+
+.listeMenu{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    transition: left 0.3s;
+    padding-left: 25%;
+}
+
+.art2{
+    border-bottom: 1px solid #000;
+}
+
+.p2{
+    padding-left: 90%;
+}
+
+.sec1{
+    border-top: 1px solid #000;
+}
+
+ a{
+    color: #000;
+}
+
+.pEduc{
+    padding-left: 25px;
+}
+/*--------------*/
+
+/* fin de stylisation de la page cv*/
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    margin: 30px;
+}
+
+.container h4{
+    margin-bottom: 10px;
+}
+
+.container p{
+    line-height: 1.4;
+    line-height: 1.5rem;
+    gap: 600%;
+
+    
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    float: right;
+    shape-outside: margin-box;
+    margin: 0 20px 5px 0;
+}
+
+/*stylisation de contacts*/
+
+/*--------------*/
+
+.contactContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-bottom: 300px;
+    padding: 20px 70px;
+}
+
+.formContainer{
+    max-width: 550px;
+}
+
+.infoContainer{
+    padding: 30px;
+}
+
+.formContainer form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.formContainer button{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #eea304;
+    border: 1px solid #142a6f;
+    margin-top: 30px;
+}
+
+.form input{
+    border: 2px solid #142a6f;
+    height: 2rem;
+    width: 16rem;
+    margin-top: 10px;
+}
+
+form textarea{
+    margin-top: 10px;
+    
+}
+
+/*-------------------*/
+/*stytisation projetcs*/
+
+.projectContent{
+    margin: 20px 70px 100px;
+}
+
+.projetsContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+}
+
+.projetsContainer article{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.projetsContainer article img{
+    width: 500px;
+    height: 300px;
+    border: 1rem solid #e0e0e0;
+}
+
+.descriptionDuprojet{
+    width: 50%;
+}
+
+
+
+
+
+
+
